@@ -1,0 +1,7 @@
+stages:
+    - test
+
+simple_job:
+    stage: test
+    script:
+        - echo "Hello , CIDI"
